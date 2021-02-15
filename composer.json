@@ -1,0 +1,35 @@
+{
+    "name": "exler/simple-php-whois",
+    "type": "library",
+    "description": "Simple PHP library for looking up domain information",
+    "keywords": [
+        "whois",
+        "domain",
+        "lookup"
+    ],
+    "homepage": "https://github.com/exler/simple-php-whois",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exler\\": "src/Exler/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": [
+                "tests/"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": [
+            "phpunit --bootstrap tests/bootstrap.php tests"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    ".com": { "host": "whois.verisign-grs.com" },
+    ".net": { "host": "whois.verisign-grs.com" },
+    ".org": { "host": "whois.pir.org" },
+    ".io": { "host": "whois.nic.io" },
+    ".co": { "host": "whois.nic.co" },
+    ".pl": { "host": "whois.dns.pl" },
+    ".de": { "host": "whois.denic.de" }
+}

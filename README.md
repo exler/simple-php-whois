@@ -1,2 +1,2 @@
-# php-whois
-🐘 Simple PHP library for WHOIS lookups
+# simple-php-whois
+🐘 Simple PHP library for looking up domain information
